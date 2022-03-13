@@ -11,6 +11,7 @@ import Twitter from './Twitter';
 import discord from '../../assets/images/discord-logo.png';
 import twitter from '../../assets/images/twitter-logo.png';
 import medium from '../../assets/images/medium-logo.jpg';
+import github from '../../assets/images/GitHub-Mark.png';
 
 const Community = () =>  {
 
@@ -79,8 +80,8 @@ const Community = () =>  {
                 </a>
             </div>
             <div class="logo">
-              <a href="http://www.google.com/%22%3E">
-                <img src={discord}  />
+              <a href="https://github.com/Dynamic-Network">
+                <img src={github}  />
               </a>
             </div> 
         </div>

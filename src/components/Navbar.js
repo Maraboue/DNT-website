@@ -4,7 +4,7 @@ import { FaCaretDown } from "react-icons/fa";
 import {FaDollarSign} from "react-icons/fa";
 
 
-function App() {
+function Navbar() {
 
 
  const [isActive, setActive] = useState("false");
@@ -62,6 +62,11 @@ window.onclick = function(event) {
             </div> 
             </li>   
             <li>
+                <a href="/roadmap" data-link>
+                    Road Map
+                </a>
+            </li>
+            <li>
                 <a href="/contact" data-link>
                     Contact Us
                 </a>
@@ -82,4 +87,4 @@ window.onclick = function(event) {
 
 
 
-export default App;
+export default Navbar;

@@ -15,6 +15,7 @@ import Navbar from './components/Navbar';
 import Tokenomics from './components/Tokenomics/Tokenomics';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Roadmap from './components/Roadmap/Roadmap';
 
 const Routing = () => {
   return(
@@ -24,6 +25,7 @@ const Routing = () => {
         <Route exact path="/" element={<App/>} />
         <Route path="/tokenomics" element={<Tokenomics/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/roadmap" element={<Roadmap/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
     </Router>

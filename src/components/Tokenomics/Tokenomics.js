@@ -7,8 +7,8 @@ import discord from '../../assets/images/discord-logo.png';
 import twitter from '../../assets/images/twitter-logo.png';
 import medium from '../../assets/images/medium-logo.jpg';
 import PieChart from './Piechart';
-
-function App() {
+import github from '../../assets/images/GitHub-Mark.png';
+function Tokenomics() {
   return (
     <div>
         
@@ -66,8 +66,8 @@ function App() {
                 </a>
             </div>
             <div class="logo">
-              <a href="http://www.google.com/%22%3E">
-                <img src={discord} alt="Discord" />
+              <a href="https://github.com/Dynamic-Network">
+                <img src={github} alt="Github" />
               </a>
             </div> 
         </div>
@@ -78,4 +78,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tokenomics;

@@ -1,0 +1,100 @@
+.roadstop-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.road-btn{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.road-stop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.road-stop:hover{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+#road-text{
+    border-radius: 15px;
+    margin-bottom: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 400px;
+    color: black;
+    font-size: large;
+    display: none;
+    overflow: hidden;
+}
+
+#road-text p {
+    position: relative;
+    right: 365px;
+    display: flex;
+    width: 350px;
+}
+#road-text1{
+    border-radius: 15px;
+    margin-top: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 400px;
+    color: black;
+    font-size: medium;
+    display: none;
+    overflow: hidden;
+}
+#road-text1 p {
+    position: relative;
+    right: 365px;
+    display: flex;
+    width: 350px;
+}
+#road-text2{
+    border-radius: 15px;
+    margin-bottom: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 400px;
+    color: black;
+    font-size: medium;
+    display: none;
+    overflow: hidden;
+}
+#road-text2 p {
+    position: relative;
+    right: 365px;
+    display: flex;
+    width: 350px;
+}
+#road-text3{
+    border-radius: 15px;
+    margin-top: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 400px;
+    color: black;
+    font-size: medium;
+    display: none;
+    overflow: hidden;
+}
+#road-text3 p {
+    position: relative;
+    right: 365px;
+    display: flex;
+    width: 350px;
+}

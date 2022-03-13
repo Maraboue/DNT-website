@@ -7,10 +7,10 @@ import './About.css';
 import discord from '../../assets/images/discord-logo.png';
 import twitter from '../../assets/images/twitter-logo.png';
 import medium from '../../assets/images/medium-logo.jpg';
-
+import github from '../../assets/images/GitHub-Mark.png';
 import space from '../../assets/videos/space.mp4';
 
-function App() {
+function About() {
   return (
     <div>
         
@@ -131,8 +131,8 @@ function App() {
                 </a>
             </div>
             <div class="logo">
-              <a href="http://www.google.com/%22%3E">
-                <img src={discord}  />
+              <a href="https://github.com/Dynamic-Network">
+                <img src={github}  />
               </a>
             </div> 
         </div>
@@ -152,4 +152,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
