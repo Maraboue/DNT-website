@@ -141,8 +141,7 @@ body{
   align-items: center;
   text-align: center;
   padding: 35px;
- 
-  
+  animation: 1s ease-out 3s 1 slideInFromRight;
 }
 
 .flex-container-header{
@@ -167,15 +166,27 @@ body{
 }
 
 
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+
+  }
+  100% {
+    transform: translateX(0);
+    
+  }
+}
+
 .text{
   display: flex;
   justify-content: right;
-  padding-top: 35px;
+  padding-top: 35px; 
+  animation: 1s ease-out 3s 1 slideInFromRight;
 }
 
 .text p{
   font-size: x-large;
-  background: hsl(10 0% 50% / 0.6);
+  background: hsl(10 0% 50% / 0.7);
   height: auto;
   font-family: monospace;
   display:flex; 
@@ -189,7 +200,6 @@ body{
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
 .flex-container > * {
   flex-grow: 1;

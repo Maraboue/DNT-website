@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 
 import space from './assets/videos/space.mp4';
 import discord from './assets/images/discord-logo.png';
+import twitter from './assets/images/twitter-logo.png';
+import medium from './assets/images/medium-logo.jpg';
 
 function App() {
   return (
@@ -25,22 +27,24 @@ function App() {
             The Dynamic Network Project. All Rights Reserved ©
             </div>
             <div class="logo">
-                <a href="http://www.google.com/%22%3E">
+                <a href="https://discord.gg/2d7PNevWJv">
                     <img src={discord} />
                 </a>
             </div>
 
             <div class="logo">
-                <a href="http://www.google.com/%22%3E">
-                    <img src={discord} /></a>
+                <a href="https://twitter.com/DynamicN3twork">
+                    <img src={twitter} /></a>
             </div>
             <div class="logo">
-                <a href="http://www.google.com/%22%3E ">
-                    <img src={discord} />
+                <a href="https://dynamic-network.medium.com/">
+                    <img src={medium} />
                 </a>
             </div>
             <div class="logo">
-            <a href="http://www.google.com/%22%3E"><img src={discord}  /></a>
+              <a href="http://www.google.com/%22%3E">
+                <img src={discord}  />
+              </a>
             </div> 
         </div>
     <video preload="auto" loop autoPlay muted loop id="myVideo">
