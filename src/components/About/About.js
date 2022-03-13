@@ -1,6 +1,12 @@
 import '../../index.css';
 import './About.css';
+
+
 // Assets
+
+import discord from '../../assets/images/discord-logo.png';
+import twitter from '../../assets/images/twitter-logo.png';
+import medium from '../../assets/images/medium-logo.jpg';
 
 import space from '../../assets/videos/space.mp4';
 
@@ -81,7 +87,7 @@ function App() {
                         The different price evolution for the dynamic minting and burning price resulted in an average standard deviation of <strong>0,38645927</strong>. Showing that the impact that the dynamic functionality had on price growth resulted in a reduction of volatility. <br/> <br/>
                         The result shows that over these iterations with burning and minting, volatility is reduced by <strong>6,128%</strong> compared to how the price
                         is affected without the implemented functionality.</p></div>
-                    <div id="AboutItem2" className="AboutItem2">
+                    <div id="vision-item" className="AboutItem2">
 
                         <h1>Vision</h1>
                         <h2>What we believe.</h2>
@@ -104,8 +110,32 @@ function App() {
 
                 </div>
 
-               
-        
+           
+            <div class="logo-container">
+            <div class="copyright-dnt">
+            The Dynamic Network Project. All Rights Reserved ©
+            </div>
+            <div class="logo">
+                <a href="https://discord.gg/2d7PNevWJv">
+                    <img src={discord} />
+                </a>
+            </div>
+
+            <div class="logo">
+                <a href="https://twitter.com/DynamicN3twork">
+                    <img src={twitter} /></a>
+            </div>
+            <div class="logo">
+                <a href="https://dynamic-network.medium.com/">
+                    <img src={medium} />
+                </a>
+            </div>
+            <div class="logo">
+              <a href="http://www.google.com/%22%3E">
+                <img src={discord}  />
+              </a>
+            </div> 
+        </div>
 
 
 
@@ -118,6 +148,7 @@ function App() {
         <source src={space}/>
       </video>
     </div>
+    
   );
 }
 

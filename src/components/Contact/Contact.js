@@ -7,6 +7,11 @@ import Medium from './Medium';
 
 import Twitter from './Twitter';
 
+
+import discord from '../../assets/images/discord-logo.png';
+import twitter from '../../assets/images/twitter-logo.png';
+import medium from '../../assets/images/medium-logo.jpg';
+
 const Community = () =>  {
 
 
@@ -20,7 +25,7 @@ const Community = () =>  {
                 <h2>Dynamic Network on Twitter</h2>
                 <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
 
-                <p>Follow us on Twitter to stay updated on whats happening in the network!
+                <p>Follow us on Twitter to stay updated on what's happening in the network!
                    <br/><br/> Twitter is the best way to get news and updates about the Dynamic Network.
                 </p>
             </div>
@@ -30,7 +35,7 @@ const Community = () =>  {
             <div className="CommunityForm">
                 <h2>Contact Us - We want to hear from you!</h2>
                 <form class="contact-form">
-                    <h5>Mail</h5>
+                    <h5>Name</h5>
                     <input id="mail-input" type="text"></input>
                     <h5>Text</h5>
                     <textarea id="text-input" rows="20" cols="50">
@@ -46,7 +51,7 @@ const Community = () =>  {
             <div id="medium-item" className="CommunityItem">
                 <h2>Dynamic Network on Medium</h2>
                 <img src="https://img.icons8.com/color/48/000000/medium-monogram.png"/>
-                <p>Follow us on Medium to stay updated on whats happening in the network!<br/>
+                <p>Follow us on Medium to stay updated on what's happening in the network!<br/>
                     <br/>   We frequently update our Medium with new blog posts about the development
                     for the Dynamic Network.
                 </p>
@@ -54,7 +59,32 @@ const Community = () =>  {
             <Medium/>
             
         </div>
-    
+        <div id="contact-logo" class="logo-container">
+            <div class="copyright-dnt">
+            The Dynamic Network Project. All Rights Reserved ©
+            </div>
+            <div class="logo">
+                <a href="https://discord.gg/2d7PNevWJv">
+                    <img src={discord} />
+                </a>
+            </div>
+
+            <div class="logo">
+                <a href="https://twitter.com/DynamicN3twork">
+                    <img src={twitter} /></a>
+            </div>
+            <div class="logo">
+                <a href="https://dynamic-network.medium.com/">
+                    <img src={medium} />
+                </a>
+            </div>
+            <div class="logo">
+              <a href="http://www.google.com/%22%3E">
+                <img src={discord}  />
+              </a>
+            </div> 
+        </div>
+
 
    
         

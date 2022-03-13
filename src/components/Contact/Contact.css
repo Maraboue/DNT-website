@@ -1,6 +1,5 @@
 .CommunityContainer{
-    display: flex;
-    
+    display: flex;    
 }
 
 .CommunityItem{
@@ -15,9 +14,8 @@
     
 }
 
-.contact-form{
-    
-
+#contact-logo{
+    margin-top: 100px;
 }
 
 .CommunityForm{
@@ -29,16 +27,21 @@
     height: 350px;
     width: 600px;
     font-family: 'Courier New', Courier, monospace;
+ 
 }
 
 #twitter-item{
     margin-top: 50px;
-    width: 400px;
+    width: 40%;
     padding-right: 100px;
+
 }
 
 #medium-item{
     margin-top: 10px;
+    width: 750px;
+    height: 250px;
+    padding-right: 0;
 }
 
 #mail-input{
