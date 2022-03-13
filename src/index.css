@@ -286,7 +286,7 @@ align-items: flex-end;
   border-radius: 100%;
   width: 55px;
   align-self: flex-start;
-  
+  z-index:10;
 }
 
 .logo a img:hover{

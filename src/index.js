@@ -13,7 +13,8 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import Navbar from './components/Navbar';
 import Tokenomics from './components/Tokenomics/Tokenomics';
-import About from './components/About';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 const Routing = () => {
   return(
@@ -23,6 +24,7 @@ const Routing = () => {
         <Route exact path="/" element={<App/>} />
         <Route path="/tokenomics" element={<Tokenomics/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
     </Router>
   )

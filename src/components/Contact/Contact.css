@@ -1,0 +1,71 @@
+.CommunityContainer{
+    display: flex;
+    
+}
+
+.CommunityItem{
+    margin-top: 120px;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    margin-right: 120px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    
+}
+
+.contact-form{
+    
+
+}
+
+.CommunityForm{
+    margin-top: 100px;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    margin-right: 120px;
+    height: 350px;
+    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#twitter-item{
+    margin-top: 50px;
+    width: 400px;
+    padding-right: 100px;
+}
+
+#medium-item{
+    margin-top: 10px;
+}
+
+#mail-input{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#text-input{
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+#submit-btn{
+    margin-top: 10px;
+    width: 200px; 
+    height: 25px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+#submit-btn:hover{
+    transform: scale(110%);
+}
