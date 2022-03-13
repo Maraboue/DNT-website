@@ -11,7 +11,10 @@ body{
   display: flex;
   position: fixed;
   justify-content: right;
- 
+  z-index:10;
+  -webkit-justify-content: flex-end;
+align-items: flex-end;
+-webkit-align-items: flex-end;
 }
 
 .dropbtn{
@@ -155,6 +158,9 @@ body{
   color: white;
   font-family: 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 2px black;
+  -webkit-justify-content: flex-end;
+align-items: flex-end;
+-webkit-align-items: flex-end;
 }
 
 .flex-container-header p {
@@ -185,6 +191,9 @@ body{
   justify-content: right;
   padding-top: 35px; 
   animation: 1s ease-out 3s 1 slideInFromRight;
+  -webkit-justify-content: flex-end;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
 }
 
 .text p{
@@ -258,6 +267,9 @@ body{
   margin-top: 300px;
   flex-wrap: wrap;
   flex-direction: row;
+  -webkit-justify-content: flex-end;
+align-items: flex-end;
+-webkit-align-items: flex-end;
 }
 
 .logo{
@@ -266,12 +278,15 @@ body{
   margin: 0 25px;
   justify-content: right;
 
+
 }
 
 .logo img{
   display: flex;
   border-radius: 100%;
   width: 55px;
+  align-self: flex-start;
+  
 }
 
 .logo a img:hover{

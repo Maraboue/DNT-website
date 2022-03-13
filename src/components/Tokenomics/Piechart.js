@@ -1,3 +1,4 @@
+import { FaBold } from 'react-icons/fa';
 import CanvasJSReact from './canvasjs.react';
 
 var React = require('react');
@@ -32,23 +33,25 @@ class PieChart extends Component {
             backgroundColor: "transparent",
             width: 600,
             height: 500,
-         
             colorSet: "gradient",
 
             title:{
                 text: "Token Distribution",
-                fontColor: "aqua",
+                fontColor: "white",
+                fontFamily: "monospace",
+                fontWeight:  "bold",
+                fontSize: 40    
             },
-
-            axisX: {
-         
+            legend: {
+                fontColor: "white",
+                labelFontColor:"white",
             },
           
             data: [{
                 type: "pie",
                 startAngle: 75,
                 toolTipContent: "<b>{label}</b>: {y}%",
-                showInLegend: "true",
+                showInLegend: "true",     
                 legendText: "{label}",
                 indexLabelFontSize: 20,
                 indexLabel: "{label} - {y}%",

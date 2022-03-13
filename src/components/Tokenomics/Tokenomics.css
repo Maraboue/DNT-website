@@ -1,11 +1,11 @@
 .TokenInfo{
     position: absolute;
     left:0;
-    top:150px;
+    top:110px;
     width: 35%;
     border-radius: 15px;
     padding:10px;
-    margin-left: 20px;
+    margin-left: 45px;
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.3);
     animation: 1s ease-out 3s 1 slideInFromRight;
@@ -23,12 +23,20 @@
  
 }
 
+.TokenInfo h2{
+    margin-top: 10px;
+}
+
+.TokenInfo p {
+    font-size: large;
+}
 .TokenInfo a {
     
     background: rgba(0, 0, 0, 0.4);
     border-radius: 50px;
     width: 150px;
     justify-content: center;
+
 }
 
 .TokenInfo a:hover{
