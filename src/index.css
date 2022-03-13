@@ -24,7 +24,7 @@ body{
   border: none;
   cursor: pointer;
   text-shadow: 2px 2px 2px black;
-  
+  margin-top: -10px;
 }
 
 .dropbtn:hover{
@@ -94,9 +94,12 @@ body{
   padding: 10px;
   width: 75%;
   border: 1px 1px solid black;
-  background: rgba(255, 255, 255, 0.116);
-  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+}
 
+#nav-btn a{
+  letter-spacing: 3px;
+  font-weight:bolder;
 }
 
 #nav-btn:hover{

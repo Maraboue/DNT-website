@@ -12,7 +12,6 @@ import medium from './assets/images/medium-logo.jpg';
 function App() {
   return (
     <div>
-      <Navbar/>
         <div class="flex-container-header">
           <p id="header">The self regulating Cryptocurrency, with less Volatility.</p>
         </div>

@@ -4,9 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// Routing 
+
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
+// Components 
+
+import Navbar from './components/Navbar';
+import Tokenomics from './components/Tokenomics/Tokenomics';
+import About from './components/About';
+
+const Routing = () => {
+  return(
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route exact path="/" element={<App/>} />
+        <Route path="/tokenomics" element={<Tokenomics/>} />
+        <Route path="/about" element={<About/>} />
+      </Routes>
+    </Router>
+  )
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routing/>
   </React.StrictMode>,
   document.getElementById('root')
 );

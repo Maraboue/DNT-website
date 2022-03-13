@@ -1,0 +1,44 @@
+.TokenInfo{
+    position: absolute;
+    left:0;
+    top:150px;
+    width: 50%;
+    border-radius: 15px;
+    padding:10px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    animation: 1s ease-out 3s 1 slideInFromRight;
+    line-height: 20px;
+}
+
+.ChartInfo{
+    position: relative;
+    top:100px;
+    padding:10px;
+    left:1000px;
+    animation: 1s ease-out 3s 1 slideInFromRight;
+}
+
+.TokenInfo a {
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    width: 150px;
+    justify-content: center;
+}
+
+.TokenInfo a:hover{
+    transform: scale(110%);
+    border-color: aqua;
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+      
+    }
+  }

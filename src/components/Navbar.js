@@ -1,7 +1,7 @@
 import '../index.css';
 import React, { useState } from "react";
-
-
+import { FaCaretDown } from "react-icons/fa";
+import {FaDollarSign} from "react-icons/fa";
 
 
 function App() {
@@ -53,7 +53,7 @@ window.onclick = function(event) {
             </li>
             <li>
                <div class="dropdown">
-                    <button onClick={handleToggle} class="dropbtn">Docs</button>
+                    <button onClick={handleToggle} class="dropbtn">Docs <FaCaretDown/></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="https://docs.google.com/document/d/e/2PACX-1vQzA6xMEXmCYq4tD0ME-t24BBj4bDVx14lvL1oj3MHpDKb41DIdfwvhR79NxmrKXtpKzVVME1VxGjrj/pub">Whitepaper</a>
                         <a href="https://docs.google.com/document/d/e/2PACX-1vTLgagJ4YEUFDJajGyl3SYT9tbbfLIvdq8e8Bj7qsK3IqAgdk0KUlK8b6LD_ejYawL6gdL91a4F-Hgq/pub">Burning & Minting</a>
@@ -69,7 +69,7 @@ window.onclick = function(event) {
             <li>
                 <button id="nav-btn">
                 <a href="https://app.uniswap.org/#/swap?inputCurrency=0x86632544e69c8019babd01be75393f9c2d46ee70&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&chain=mainnet">
-                    Buy $DNT
+                    Buy&nbsp;<FaDollarSign/>DNT
                 </a>
                 </button>
             </li>
