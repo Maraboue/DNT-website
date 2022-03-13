@@ -52,26 +52,26 @@ function App() {
             </div>
             <div class="logo">
                 <a href="https://discord.gg/2d7PNevWJv">
-                    <img src={discord} />
+                    <img src={discord} alt="Discord" />
                 </a>
             </div>
 
             <div class="logo">
                 <a href="https://twitter.com/DynamicN3twork">
-                    <img src={twitter} /></a>
+                    <img src={twitter} alt="Twitter" /></a>
             </div>
             <div class="logo">
                 <a href="https://dynamic-network.medium.com/">
-                    <img src={medium} />
+                    <img src={medium} alt="Medium"/>
                 </a>
             </div>
             <div class="logo">
               <a href="http://www.google.com/%22%3E">
-                <img src={discord}  />
+                <img src={discord} alt="Discord" />
               </a>
             </div> 
         </div>
-    <video preload="auto" loop autoPlay muted loop id="myVideo">
+    <video  loop autoPlay muted id="myVideo">
         <source src={space}/>
       </video>
     </div>

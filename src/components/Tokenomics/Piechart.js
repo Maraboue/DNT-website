@@ -30,8 +30,8 @@ class PieChart extends Component {
             exportFileName: "Token Distribution",
             exportEnabled: true,
             backgroundColor: "transparent",
-            width: 800,
-            height: 600,
+            width: 600,
+            height: 500,
          
             colorSet: "gradient",
 
@@ -43,8 +43,7 @@ class PieChart extends Component {
             axisX: {
          
             },
-
-
+          
             data: [{
                 type: "pie",
                 startAngle: 75,

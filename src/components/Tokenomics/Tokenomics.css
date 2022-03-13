@@ -2,10 +2,11 @@
     position: absolute;
     left:0;
     top:150px;
-    width: 50%;
+    width: 35%;
     border-radius: 15px;
     padding:10px;
     margin-left: 20px;
+    margin-top: 20px;
     background: rgba(255, 255, 255, 0.3);
     animation: 1s ease-out 3s 1 slideInFromRight;
     line-height: 20px;
@@ -14,13 +15,16 @@
 .ChartInfo{
     position: relative;
     top:100px;
-    padding:10px;
-    left:1000px;
+    right:100px;
+    padding-top: 35px;
+    width: 100%;
+    margin-left: 100vh;
     animation: 1s ease-out 3s 1 slideInFromRight;
+ 
 }
 
 .TokenInfo a {
-    border: 1px solid black;
+    
     background: rgba(0, 0, 0, 0.4);
     border-radius: 50px;
     width: 150px;
@@ -30,6 +34,34 @@
 .TokenInfo a:hover{
     transform: scale(110%);
     border-color: aqua;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    .TokenInfo{
+        position: absolute;
+        left:0;
+        top:150px;
+        width: 45%;
+        border-radius: 15px;
+        padding:10px;
+        margin-left: 20px;
+        margin-top: 1px;
+        background: rgba(255, 255, 255, 0.3);
+        animation: 1s ease-out 3s 1 slideInFromRight;
+        line-height: 15px;
+    }
+
+    .TokenInfo a {
+    
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 50px;
+        width: 150px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
