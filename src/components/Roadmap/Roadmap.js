@@ -68,7 +68,7 @@ function Roadmap() {
                 <div class="road-stop">
                     <h2>Q1</h2>
                     <div id="road-text">
-                    <p>Marketing of the Dynamic Network</p>
+                    <p>Marketing the Dynamic Network.</p>
                     </div>
                 </div>
                 </button> 
@@ -76,7 +76,7 @@ function Roadmap() {
                 <div class="road-stop">
                 <h2>Q2</h2>
                     <div id="road-text1">
-                    <p>New Exchange Listings for $DNT</p>
+                    <p>New Exchange Listings for $DNT.</p>
                     </div>
                 </div>
                 </button> 
@@ -85,7 +85,7 @@ function Roadmap() {
                 <div class="road-stop">
                 <h2>Q3</h2>
                     <div id="road-text2">
-                    <p>Partnerships and Community</p>
+                    <p>Partnerships and Community.</p>
                     </div>
                 </div>
                 </button> 
@@ -93,7 +93,7 @@ function Roadmap() {
                 <div class="road-stop">
                 <h2>Q4</h2>
                     <div id="road-text3">
-                        <p>Continue building the project</p>
+                        <p>Continue Building the Project.</p>
                     </div>
                 </div>
                 </button> 

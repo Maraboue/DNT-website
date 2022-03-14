@@ -50,6 +50,11 @@ window.onclick = function(event) {
                 <a href="/team" data-link>
                     Team
                 </a>
+            </li>  
+            <li>
+                <a href="/roadmap" data-link>
+                    Road Map
+                </a>
             </li>
             <li>
                <div class="dropdown">
@@ -60,12 +65,7 @@ window.onclick = function(event) {
                         <a href="https://github.com/Dynamic-Network">Github</a>
                     </div>
             </div> 
-            </li>   
-            <li>
-                <a href="/roadmap" data-link>
-                    Road Map
-                </a>
-            </li>
+            </li> 
             <li>
                 <a href="/contact" data-link>
                     Contact Us

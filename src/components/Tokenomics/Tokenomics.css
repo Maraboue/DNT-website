@@ -73,6 +73,32 @@
 }
 
 
+@media screen and (max-width: 900px) {
+
+    .TokenInfo{
+    
+        background: rgba(255, 255, 255, 0.3);
+        animation: 1s ease-out 3s 1 slideInFromRight;
+        line-height: 15px;
+        display: block;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .logo-container{
+        margin-top: -200px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 5px;
+      }
+    
+      .copyright-dnt{
+        bottom:-600px;
+      }
+
+}
+
+
 @keyframes slideInFromRight {
     0% {
       transform: translateX(100%);

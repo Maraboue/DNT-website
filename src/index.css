@@ -13,8 +13,8 @@ body{
   justify-content: right;
   z-index:10;
   -webkit-justify-content: flex-end;
-align-items: flex-end;
--webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
 }
 
 .dropbtn{
@@ -335,6 +335,14 @@ div:not([class]){
   
 @media screen and (max-width: 900px) {
 
+  .logo-container{
+    padding-top: 35px;
+}
+
+.copyright-dnt{
+  bottom:0px;
+}
+
   div:not([class]){
       color: white;
       font-weight: bold;
@@ -342,7 +350,7 @@ div:not([class]){
       font-family: 'Courier New', Courier, monospace;
       overflow: auto;
       padding: 0.15em;
-     text-align: center;
+      text-align: center;
   }
 
   #nav-title{
@@ -380,5 +388,19 @@ div:not([class]){
       margin: 5px;
       
   }
+
+  .logo-container{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px;
+  }
+
+  .copyright-dnt{
+    margin-bottom: -500px;
+  }
+
+
+
 
 }

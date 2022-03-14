@@ -16,6 +16,7 @@ import Tokenomics from './components/Tokenomics/Tokenomics';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Roadmap from './components/Roadmap/Roadmap';
+import Team from './components/Team/Team';
 
 const Routing = () => {
   return(
@@ -25,6 +26,7 @@ const Routing = () => {
         <Route exact path="/" element={<App/>} />
         <Route path="/tokenomics" element={<Tokenomics/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/team" element={<Team/>} />
         <Route path="/roadmap" element={<Roadmap/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>

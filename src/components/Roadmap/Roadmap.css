@@ -26,6 +26,7 @@
     width: 5px;
     padding: 50px;
     background: rgba(255, 255, 255, 0.4);
+    color: white;
 }
 
 .road-stop:hover{
@@ -36,9 +37,9 @@
 #road-text{
     border-radius: 15px;
     margin-bottom: 250px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding-left: 400px;
-    color: black;
+    color: white;
     font-size: large;
     display: none;
     overflow: hidden;
@@ -49,13 +50,14 @@
     right: 365px;
     display: flex;
     width: 350px;
+    color: white;
 }
 #road-text1{
     border-radius: 15px;
     margin-top: 250px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding-left: 400px;
-    color: black;
+    color: white;
     font-size: medium;
     display: none;
     overflow: hidden;
@@ -69,9 +71,9 @@
 #road-text2{
     border-radius: 15px;
     margin-bottom: 250px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding-left: 400px;
-    color: black;
+    color: white;
     font-size: medium;
     display: none;
     overflow: hidden;
@@ -85,9 +87,9 @@
 #road-text3{
     border-radius: 15px;
     margin-top: 250px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding-left: 400px;
-    color: black;
+    color: white;
     font-size: medium;
     display: none;
     overflow: hidden;
@@ -97,4 +99,21 @@
     right: 365px;
     display: flex;
     width: 350px;
+}
+@media screen and (max-width: 900px) {
+
+    .roadstop-container{
+        display: block;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+
+    .logo-container{
+        margin-bottom: -10px;
+    }
+
 }

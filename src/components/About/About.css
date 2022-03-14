@@ -3,10 +3,9 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 100px;
-    height: 5%;
     width: 100%;
     margin-left:0;
-    gap: 15px;
+    gap: 10px;
     margin-bottom: -250px;
 }
 
@@ -22,9 +21,9 @@
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
- 
+    height: 95%;
+    padding-bottom: 15px;
 }
-
 
 .AboutItem2{
     position: relative;
@@ -37,16 +36,18 @@
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
+    height: 95%;
+    padding-bottom: 15px;
 }
 
 
 .AboutItem1:hover{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
 .AboutItem2:hover{  
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 

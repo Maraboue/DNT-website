@@ -21,7 +21,7 @@ function About() {
                         <div id="Background" className="Background">
 
                         <h1>Background</h1>
-                            <h2>How it started.</h2>
+                
                         <p>
 
                             The Internet provided humans a new way to exchange information digitally and has changed how
@@ -53,7 +53,7 @@ function About() {
                     <div id="AboutItem1" className="AboutItem2">
 
                         <h1>Research</h1>
-                        <h2>How we proceeded.</h2>
+            
                         <p>
                             Behind the Dynamic Network Token lies a lot of research. We thought that by using machine
                             learning and linear regression, a fairly good prediction
@@ -76,7 +76,7 @@ function About() {
 
                         <div id="AboutItem1" className="AboutItem1">
                         <h1>Results</h1>
-                        <h2>What we achieved. </h2>
+                       
                        <p> To test the functionality of burning and minting, a developed Java-program was used that simulates transactions.
                         In order to be able to compare the impact/effect that burning and minting has on reducing volatility, simulations
                         of transactions were performed with dynamic burning and minting implemented versus without the functionality implemented.
@@ -90,7 +90,6 @@ function About() {
                     <div id="vision-item" className="AboutItem2">
 
                         <h1>Vision</h1>
-                        <h2>What we believe.</h2>
                         <p> Looking forward, we are excited to see how the community will grow and how we together can
                             build a future were a crypto can act as both a store of value while also providing a good
                             way of transacting.

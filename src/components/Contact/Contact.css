@@ -1,5 +1,6 @@
 .CommunityContainer{
     display: flex;    
+    
 }
 
 .CommunityItem{
@@ -22,18 +23,19 @@
     margin-top: 100px;
     padding: 35px;
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 15px;
     margin-right: 120px;
     height: 350px;
     width: 600px;
     font-family: 'Courier New', Courier, monospace;
- 
+    border-radius: 15px;
 }
+
+
 
 #twitter-item{
     margin-top: 50px;
-    width: 40%;
-    padding-right: 100px;
+    padding-left: 5px;
+    padding-right: 35px;
 
 }
 
@@ -53,7 +55,7 @@
 #text-input{
     width: 400px;
     height: 100px;
-    border-radius: 15px;
+    resize: none;
 }
 
 #submit-btn{
@@ -72,3 +74,35 @@
 #submit-btn:hover{
     transform: scale(110%);
 }
+
+
+
+@media  screen and (max-width: 1500px){
+    .CommunityForm{
+        margin-top: 100px;
+        padding: 35px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin-right: 120px;
+        height: 250px;
+        width: 600px;
+        font-family: 'Courier New', Courier, monospace;  
+    }
+
+    .CommunityForm h2, h5, textarea, input{
+        margin-top: -20px;
+        padding-top: 5px;
+        resize: none;
+    }
+    #text-h5{
+        margin-top: 1px;
+    }
+
+  
+    #twitter-item{
+        margin-top: 50px;
+        width: 500px;
+        height: 300px;
+    
+    }
+    
+  }

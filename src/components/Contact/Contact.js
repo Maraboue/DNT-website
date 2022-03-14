@@ -22,7 +22,7 @@ const Community = () =>  {
        
         <div class="CommunityContainer">
 
-            <div className="CommunityItem">
+            <div id="twitter-text" className="CommunityItem">
                 <h2>Dynamic Network on Twitter</h2>
                 <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
 
@@ -38,7 +38,7 @@ const Community = () =>  {
                 <form class="contact-form">
                     <h5>Name</h5>
                     <input id="mail-input" type="text"></input>
-                    <h5>Text</h5>
+                    <h5 id="text-h5">Text</h5>
                     <textarea id="text-input" rows="20" cols="50">
                     </textarea>
                     <button id="submit-btn" type="submit" value="submit">Submit</button>
