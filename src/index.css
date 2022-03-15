@@ -142,13 +142,24 @@ body{
 }
 
 #header{
-  height: 75px;
+  height: 100px;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 35px;
   animation: 1s ease-out 3s 1 slideInFromRight;
+  text-shadow: 3px 1px black;
+  font-size:35px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						5px 5px 5px #1f48ff,
+						11px 10px 3px #000000;
+
 }
+
 
 .flex-container-header{
   margin-top: 200px;
@@ -159,8 +170,8 @@ body{
   font-family: 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 2px black;
   -webkit-justify-content: flex-end;
-align-items: flex-end;
--webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
 }
 
 .flex-container-header p {
@@ -199,10 +210,13 @@ align-items: flex-end;
 .text p{
   font-size: x-large;
   background: hsl(10 0% 50% / 0.7);
-  height: auto;
   font-family: monospace;
+  letter-spacing: 0.1em;
+  font-weight: bold;
   display:flex; 
-  width: 50%;
+  width: 40%;
+  text-align: center;
+  justify-content: center;
   line-height: 35px;
   padding: 5px;
   border-radius: 15px;

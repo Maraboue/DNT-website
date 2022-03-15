@@ -8,8 +8,11 @@
     margin-left: 45px;
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.3);
-    animation: 1s ease-out 3s 1 slideInFromRight;
     line-height: 20px;
+}
+
+.TokenInfo:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .ChartInfo{
@@ -19,8 +22,6 @@
     padding-top: 35px;
     width: 100%;
     margin-left: 100vh;
-    animation: 1s ease-out 3s 1 slideInFromRight;
- 
 }
 
 .TokenInfo h2{
@@ -32,7 +33,7 @@
 }
 .TokenInfo a {
     
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255,255, 0.5);
     border-radius: 50px;
     width: 150px;
     justify-content: center;

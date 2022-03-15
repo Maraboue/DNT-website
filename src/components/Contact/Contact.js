@@ -1,19 +1,54 @@
 import React from "react";
 import './Contact.css';
-import space from '../../assets/videos/space.mp4';
 
 
+// Components 
+
+import {useState} from "react";
+import { send } from 'emailjs-com';
 import Medium from './Medium';
-
 import Twitter from './Twitter';
 
+// Assets
 
+import space from '../../assets/videos/space.mp4';
 import discord from '../../assets/images/discord-logo.png';
 import twitter from '../../assets/images/twitter-logo.png';
 import medium from '../../assets/images/medium-logo.jpg';
 import github from '../../assets/images/GitHub-Mark.png';
 
-const Community = () =>  {
+function Contact ()  {
+
+
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        to_name: 'Dynamic Network',
+        message: '',
+        reply_to: ''
+      });
+
+      const onSubmit = (e) => {
+        console.log(toSend)
+        e.preventDefault();
+        send(
+          "service_f3ugcj6",
+          "template_8z65gan",
+          toSend,
+          'CdBOqvJOI9zgDnoZQ'
+        )
+          .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+          })
+          .catch((err) => {
+            console.log('FAILED...', err);
+          });
+      };
+    
+
+      const handleChange = (e) => {
+        //console.log([e.target.name], e.target.value)
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+      };
 
 
     return (
@@ -35,13 +70,16 @@ const Community = () =>  {
             </div>
             <div className="CommunityForm">
                 <h2>Contact Us - We want to hear from you!</h2>
-                <form class="contact-form">
-                    <h5>Name</h5>
-                    <input id="mail-input" type="text"></input>
+                <form class="contact-form" onSubmit={onSubmit}>
+                    <h5>Mail</h5>   
+                    <input id="mail-input" type='text' name='from_name' placeholder='John@Doe.com'
+                        value={toSend.from_name}
+                        onChange={handleChange}/>
                     <h5 id="text-h5">Text</h5>
-                    <textarea id="text-input" rows="20" cols="50">
+                    <textarea id="text-input" rows="20" cols="50" name="message" placeholder="Write your text here" 
+                    value={toSend.message} onChange={handleChange}>
                     </textarea>
-                    <button id="submit-btn" type="submit" value="submit">Submit</button>
+                    <button id="submit-btn" type="submit">Submit</button>
                 </form>
             </div>
         
@@ -96,7 +134,7 @@ const Community = () =>  {
         
 
     )
+    
 
 
-
-}; export default Community;
+}; export default Contact;

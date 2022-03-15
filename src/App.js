@@ -1,6 +1,4 @@
 import './index.css';
-import Navbar from './components/Navbar';
-
 
 // Assets
 
@@ -13,7 +11,7 @@ function App() {
   return (
     <div>
         <div class="flex-container-header">
-          <p id="header">The self regulating Cryptocurrency, with less Volatility.</p>
+          <p id="header" class="header">The Self Regulating Cryptocurrency, with Less Volatility.</p>
         </div>
         <div class="flex-container">
         <div class="text"><p>We Are Excited To Start This Journey With You.<br/>
