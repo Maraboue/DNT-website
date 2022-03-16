@@ -1,7 +1,7 @@
 import '../index.css';
 import React, { useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
-import {FaDollarSign} from "react-icons/fa";
+import {FaDollarSign, FaHamburger} from "react-icons/fa";
 import logo from "../assets/images/logotyp.png";
 
 function Navbar() {
@@ -25,12 +25,35 @@ window.onclick = function(event) {
         document.getElementById("myDropdown").style.display = "none"; 
   }};
 
+
+  window.onclick = function(e){
+      if(e.target.matches('.menu-btn')||e.target.matches('.menu-btn1')||e.target.matches('.menu-btn2')){
+          console.log("Hello")
+        const visibile = document.querySelector(".primary-nav").getAttribute("data-visibility");
+        console.log(visibile)
+        if(visibile==="false"){
+            document.querySelector(".primary-nav").setAttribute("data-visibility",true)
+        }
+        else{
+            document.querySelector(".primary-nav").setAttribute("data-visibility",false)
+        }
+      }
+  }
+
+
   return (
+    <div>
+    <button class="menu-btn" id="menu-btn" aria-controls='nav'><span class="sr-only"></span></button> 
+    <button class="menu-btn1" aria-controls='nav'><span class="sr-only"></span></button> 
+    <button class="menu-btn2" aria-controls='nav'><span class="sr-only"></span></button> 
    
     <nav class="nav">
-        <ul>
+        
+
+        <ul class="primary-nav" data-visibility="false">
             <img src={logo} alt="=("/>
-            <h2 id="nav-title">Dynamic Network</h2>     
+            <h2 id="nav-title">Dynamic Network</h2>    
+
             <li>
                 <a href="/" data-link>
                     Home
@@ -57,7 +80,7 @@ window.onclick = function(event) {
                 </a>
             </li>
             <li>
-               <div class="dropdown">
+               <div class="dropdown" data-link>
                     <button onClick={handleToggle} class="dropbtn">Docs <FaCaretDown/></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="https://docs.google.com/document/d/e/2PACX-1vQzA6xMEXmCYq4tD0ME-t24BBj4bDVx14lvL1oj3MHpDKb41DIdfwvhR79NxmrKXtpKzVVME1VxGjrj/pub">Whitepaper</a>
@@ -80,7 +103,7 @@ window.onclick = function(event) {
             </li>
         </ul> 
     </nav>
-
+    </div>
   );
   
 }
