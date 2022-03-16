@@ -73,3 +73,39 @@
     padding-top: 5px;
     color: white;
 }
+
+@media screen and (max-width: 900px) {
+
+    .blogContainer{
+
+        width: 90%;
+        padding: 15px;
+        margin-right: 26px;
+    }
+
+
+    .blogHeader{
+        color: aqua;
+        display:flex;
+        justify-content: left;
+    }
+
+    .Card a{
+        padding-bottom: 15px;
+        
+    }
+
+    .CardTitle {
+        padding-top:30px;
+    }
+
+    .logo-container{
+        width: 100%;
+      }
+    
+      .copyright-dnt{
+         margin-bottom: -1050px;
+         width: 90%;
+      }
+
+}

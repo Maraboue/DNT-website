@@ -2,7 +2,7 @@ import '../index.css';
 import React, { useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
 import {FaDollarSign} from "react-icons/fa";
-
+import logo from "../assets/images/logotyp.png";
 
 function Navbar() {
 
@@ -29,7 +29,7 @@ window.onclick = function(event) {
    
     <nav class="nav">
         <ul>
-            <img src="https://www.dynamicnetworktoken.com/static/media/logotyp.c595c5e8.png" alt="=("/>
+            <img src={logo} alt="=("/>
             <h2 id="nav-title">Dynamic Network</h2>     
             <li>
                 <a href="/" data-link>
@@ -61,8 +61,8 @@ window.onclick = function(event) {
                     <button onClick={handleToggle} class="dropbtn">Docs <FaCaretDown/></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="https://docs.google.com/document/d/e/2PACX-1vQzA6xMEXmCYq4tD0ME-t24BBj4bDVx14lvL1oj3MHpDKb41DIdfwvhR79NxmrKXtpKzVVME1VxGjrj/pub">Whitepaper</a>
-                        <a href="https://docs.google.com/document/d/e/2PACX-1vTLgagJ4YEUFDJajGyl3SYT9tbbfLIvdq8e8Bj7qsK3IqAgdk0KUlK8b6LD_ejYawL6gdL91a4F-Hgq/pub">Burning & Minting</a>
-                        <a href="https://github.com/Dynamic-Network">Github</a>
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vTLgagJ4YEUFDJajGyl3SYT9tbbfLIvdq8e8Bj7qsK3IqAgdk0KUlK8b6LD_ejYawL6gdL91a4F-Hgq/pub">Token Burning</a>
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vTO-bSLRZ9AKnrrPIGwdw7f3Aa7R86yWA7T56fITJ2LObRU-X1-FozsnJr5FeJ3NweH5F1A_YEyqeE7/pub">$DNT Overview</a>
                     </div>
             </div> 
             </li> 

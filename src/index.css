@@ -349,13 +349,7 @@ div:not([class]){
   
 @media screen and (max-width: 900px) {
 
-  .logo-container{
-    padding-top: 35px;
-}
-
-.copyright-dnt{
-  bottom:0px;
-}
+ 
 
   div:not([class]){
       color: white;
@@ -404,14 +398,11 @@ div:not([class]){
   }
 
   .logo-container{
-    
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 5px;
+    width: 100%;
   }
 
   .copyright-dnt{
-    margin-bottom: -500px;
+    bottom:1px;
   }
 
 

@@ -1,0 +1,14 @@
+
+
+@media screen and (max-width: 900px) {
+    .logo-container{
+    
+        display: grid;
+        grid-template-columns: repeat(4,1fr);  
+        width: 100%;
+      }
+    
+      .copyright-dnt{
+        top:0;
+      }
+  }

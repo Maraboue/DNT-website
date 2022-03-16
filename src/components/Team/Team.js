@@ -12,11 +12,11 @@ import space from '../../assets/videos/space.mp4';
 
 import gustaf from '../../assets/images/image0.png'
 
-import kajsa from '../../assets/images/image1.png'
+import kajsa from '../../assets/images/image0.png'
 
-import challe from '../../assets/images/image3.png'
+import challe from '../../assets/images/image0.png'
 
-import philip from '../../assets/images/image4.png'
+import philip from '../../assets/images/image0.png'
 
 
 function Team() {

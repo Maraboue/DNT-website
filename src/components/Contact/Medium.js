@@ -44,7 +44,7 @@ const Medium = () => {
                             <div className="Card">
                                 <img  src={article.thumbnail} alt="img" />
                                 <CardBody>
-                                    <CardTitle>
+                                    <CardTitle className="CardTitle">
                                         <a href={article.link}>{article.title}</a>
                                     </CardTitle>
                                     <div className="date" id="date">

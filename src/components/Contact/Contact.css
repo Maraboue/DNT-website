@@ -15,6 +15,10 @@
     
 }
 
+.CommunityItem:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 #contact-logo{
     margin-top: 100px;
 }
@@ -30,6 +34,10 @@
     border-radius: 15px;
 }
 
+.CommunityForm:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 
 #twitter-item{
@@ -39,12 +47,14 @@
 
 }
 
+
 #medium-item{
     margin-top: 10px;
     width: 750px;
     height: 250px;
     padding-right: 0;
 }
+
 
 #mail-input{
     height: 20px;
@@ -66,7 +76,7 @@
     font-family: monospace;
     font-weight: bold;
     color:white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255 ,255,0.3);
     border: none;
     cursor: pointer;
 }
@@ -105,4 +115,43 @@
     
     }
     
+  }
+
+  @media screen and (max-width: 900px) {
+    
+    .CommunityContainer{
+        padding-top: 150px;
+        display: block;
+        width:auto;
+    }
+
+    .CommunityForm{
+        margin-top: 100px;
+        background-color: rgba(255, 255, 255, 0.3);
+        height: 250px;
+        width: 75%;
+        font-family: 'Courier New', Courier, monospace;  
+        padding: 45px;
+    }
+
+    #twitter-text{
+        width: 75%;
+        margin-bottom: 100px;
+        padding: 45px;
+    }
+
+    #text-input{
+        width: 75%;
+        
+    }
+    #twitter-item{
+      width: auto;  
+      padding: 15px;
+    }
+
+    #medium-item{
+        width: 85%;
+        padding: 25px;
+        margin-bottom: 150px;
+    }
   }

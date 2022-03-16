@@ -76,7 +76,7 @@ function Contact ()  {
                         value={toSend.from_name}
                         onChange={handleChange}/>
                     <h5 id="text-h5">Text</h5>
-                    <textarea id="text-input" rows="20" cols="50" name="message" placeholder="Write your text here" 
+                    <textarea id="text-input" name="message" placeholder="Write your text here" 
                     value={toSend.message} onChange={handleChange}>
                     </textarea>
                     <button id="submit-btn" type="submit">Submit</button>

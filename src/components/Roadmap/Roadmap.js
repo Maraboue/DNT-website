@@ -10,6 +10,8 @@ import github from '../../assets/images/GitHub-Mark.png';
 import space from '../../assets/videos/space.mp4';
 
 
+import Footer from '../Footer/Footer.js';
+
 function Roadmap() {
 
     const [isActive, setActive] = useState("false");
@@ -99,36 +101,7 @@ function Roadmap() {
                 </button> 
 
             </div>
-
-
-
-            <div class="logo-container">
-            <div class="copyright-dnt">
-            The Dynamic Network Project. All Rights Reserved ©
-            </div>
-            <div class="logo">
-                <a href="https://discord.gg/2d7PNevWJv">
-                    <img src={discord} />
-                </a>
-            </div>
-
-            <div class="logo">
-                <a href="https://twitter.com/DynamicN3twork">
-                    <img src={twitter} /></a>
-            </div>
-            <div class="logo">
-                <a href="https://dynamic-network.medium.com/">
-                    <img src={medium} />
-                </a>
-            </div>
-            <div class="logo">
-              <a href="https://github.com/Dynamic-Network">
-                <img src={github}  />
-              </a>
-            </div> 
-        </div>
-
-
+            <Footer/>
     <video  loop autoPlay muted id="myVideo">
         <source src={space}/>
       </video>
