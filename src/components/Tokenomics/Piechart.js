@@ -1,6 +1,7 @@
+import Axis from 'canvasjs/src/core/axis';
 import { FaBold } from 'react-icons/fa';
 import CanvasJSReact from './canvasjs.react';
-
+import './Tokenomics.css';
 var React = require('react');
 
 var Component = React.Component;
@@ -45,8 +46,9 @@ class PieChart extends Component {
             legend: {
                 fontColor: "white",
                 labelFontColor:"white",
+        
             },
-          
+        
             data: [{
                 type: "pie",
                 startAngle: 75,

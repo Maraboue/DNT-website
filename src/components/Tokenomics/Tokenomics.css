@@ -58,7 +58,6 @@
         margin-left: 20px;
         margin-top: 1px;
         background: rgba(255, 255, 255, 0.3);
-        animation: 1s ease-out 3s 1 slideInFromRight;
         line-height: 15px;
     }
 
@@ -84,17 +83,27 @@
         display: block;
         position: relative;
         margin-top: 100px;
+        overflow: hidden;
     }
 
+    .ChartInfo{
+        position: absolute;
+        width: 100%;
+        margin-top: 1000px;
+     
+    }
+
+
     .logo-container{
-        margin-top: -200px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        margin-top: 780px;
         padding: 5px;
       }
     
       .copyright-dnt{
-        bottom:-600px;
+        
+        bottom: -100px;
       }
 
 }

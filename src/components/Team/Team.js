@@ -12,11 +12,11 @@ import space from '../../assets/videos/space.mp4';
 
 import gustaf from '../../assets/images/image0.png'
 
-import kajsa from '../../assets/images/image0.png'
+import kajsa from '../../assets/images/image1.png'
 
-import challe from '../../assets/images/image0.png'
+import challe from '../../assets/images/image5.jpg'
 
-import philip from '../../assets/images/image0.png'
+import philip from '../../assets/images/image4.png'
 
 
 function Team() {
@@ -30,7 +30,7 @@ function Team() {
             <img src={gustaf}alt="images"/>
         </div>
         <div class="details">
-            <h2>Gustaf Sjölinder<br/><span>Project Lead</span></h2>
+            <h2>Gustaf Sjölinder<br/><span>Tech Lead</span></h2>
         </div>
       </div>
     

@@ -37,12 +37,22 @@ function Contact ()  {
           'CdBOqvJOI9zgDnoZQ'
         )
           .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
+            console.log('SUCCESS, MESSAGE SENT!', response.status, response.text);
+            alert('SUCCESS, MESSAGE SENT!', response.status, response.text);
+            e.target[0].value = "";
+            e.target[1].value = "";
           })
           .catch((err) => {
             console.log('FAILED...', err);
           });
-      };
+          
+          toSend.from_name = "";
+          toSend.message = "";
+        
+          }
+          
+
+      
     
 
       const handleChange = (e) => {
@@ -50,7 +60,7 @@ function Contact ()  {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
       };
 
-
+  
     return (
         <section className="community_section" id="community">
 
@@ -70,13 +80,13 @@ function Contact ()  {
             </div>
             <div className="CommunityForm">
                 <h2>Contact Us - We want to hear from you!</h2>
-                <form class="contact-form" onSubmit={onSubmit}>
+                <form class="contact-form" id="contact-form" onSubmit={onSubmit}>
                     <h5>Mail</h5>   
-                    <input id="mail-input" type='text' name='from_name' placeholder='John@Doe.com'
+                    <input id="mail-input" type='text' name='from_name' placeholder='johndoe@mail.com'
                         value={toSend.from_name}
                         onChange={handleChange}/>
                     <h5 id="text-h5">Text</h5>
-                    <textarea id="text-input" name="message" placeholder="Write your text here" 
+                    <textarea id="text-input" name="message" placeholder="What's on your mind?" 
                     value={toSend.message} onChange={handleChange}>
                     </textarea>
                     <button id="submit-btn" type="submit">Submit</button>
