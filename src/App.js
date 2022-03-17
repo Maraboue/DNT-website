@@ -11,34 +11,34 @@ function App() {
   return (
     <div>
         <div class="flex-container-header">
-          <h1 id="header" class="header">The Self Regulating Cryptocurrency, with Less Volatility.</h1>
+          <h1 id="header" class="header">The Self Regulating Cryptocurrency with Less Volatility.</h1>
         </div>
-        <div class="flex-container">
+        <div class="flex-container">                                            
         <div class="text"><p>We Are Excited To Start This Journey With You.<br/>
         Let's Begin Building This New World of DeFi together.
         </p></div>
     </div>
    
     <div class="logo-container">
-            <div class="copyright-dnt">
+            <div class="copyright-dnt" id="dnt-logo-home">
             The Dynamic Network Project. All Rights Reserved ©
             </div>
-            <div class="logo">
+            <div class="logo" id="dnt-logo-home">
                 <a href="https://discord.gg/2d7PNevWJv">
                     <img src={discord} />
                 </a>
             </div>
 
-            <div class="logo">
+            <div class="logo" id="dnt-logo-home">
                 <a href="https://twitter.com/DynamicN3twork">
                     <img src={twitter} /></a>
             </div>
-            <div class="logo">
+            <div class="logo" id="dnt-logo-home">
                 <a href="https://dynamic-network.medium.com/">
                     <img src={medium} />
                 </a>
             </div>
-            <div class="logo">
+            <div class="logo" id="dnt-logo-home">
               <a href="https://github.com/Dynamic-Network">
                 <img src={github}  />
               </a>

@@ -12,7 +12,7 @@ function Tokenomics() {
   return (
     <div>
         
-        <div class="flex-container">
+        <div class="flex-container-token">
         <div  id="TokenInfo" class="TokenInfo">
             <h1>Why Dynamic Network Token?</h1>
             <br/>

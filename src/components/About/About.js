@@ -50,7 +50,7 @@ function About() {
                         </p>
                         </div>
                         </div>
-                    <div id="AboutItem1" className="AboutItem2">
+                    <div id="AboutItem" className="AboutItem2">
 
                         <h1>Research</h1>
             
@@ -74,7 +74,7 @@ function About() {
                             in favor for the burning and the reduction of the total supply of the token.
                         </p></div>
 
-                        <div id="AboutItem1" className="AboutItem1">
+                        <div id="AboutItem" className="AboutItem1">
                         <h1>Results</h1>
                        
                        <p> To test the functionality of burning and minting, a developed Java-program was used that simulates transactions.
@@ -87,7 +87,7 @@ function About() {
                         The different price evolution for the dynamic minting and burning price resulted in an average standard deviation of <strong>0,38645927</strong>. Showing that the impact that the dynamic functionality had on price growth resulted in a reduction of volatility. <br/> <br/>
                         The result shows that over these iterations with burning and minting, volatility is reduced by <strong>6,128%</strong> compared to how the price
                         is affected without the implemented functionality.</p></div>
-                    <div id="vision-item" className="AboutItem2">
+                    <div id="AboutItem" className="AboutItem2">
 
                         <h1>Vision</h1>
                         <p> Looking forward, we are excited to see how the community will grow and how we together can
