@@ -176,14 +176,13 @@ body{
   font-size:35px;
 	letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
   text-shadow: 
-						5px 5px 5px #1f48ff,
-						11px 10px 3px #000000;
+						3px 3px 3px #e1e2e7,
+						8px 8px 3px #1b1c79;
 
 }
-
 
 .flex-container-header{
   margin-top: 200px;
@@ -233,7 +232,7 @@ body{
 
 .text p{
   font-size: x-large;
-  background: hsl(10 0% 50% / 0.7);
+  background: hsl(10 0% 50% / 0.2);
   font-family: monospace;
   letter-spacing: 0.1em;
   font-weight: bold;
@@ -242,8 +241,9 @@ body{
   text-align: center;
   justify-content: center;
   line-height: 35px;
-  padding: 5px;
-  border-radius: 15px;
+  padding: 35px;
+  border-radius: 5px;
+  margin-top: -35px;
 }
 
 .flex-container{

@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
         <div class="flex-container-header">
-          <p id="header" class="header">The Self Regulating Cryptocurrency, with Less Volatility.</p>
+          <h1 id="header" class="header">The Self Regulating Cryptocurrency, with Less Volatility.</h1>
         </div>
         <div class="flex-container">
         <div class="text"><p>We Are Excited To Start This Journey With You.<br/>
