@@ -1,7 +1,7 @@
 .TokenInfo{
     position: absolute;
     left:0;
-    top:110px;
+    top:135px;
     width: 30%;
     border-radius: 35px;
     padding:10px;
@@ -23,15 +23,15 @@
 }
 
 .TokenInfo:hover{
-    background: rgba(115, 118, 170, 0.3);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .ChartInfo{
     position: relative;
-    top:100px;
+    top:35px;
     right:100px;
     padding-top: 35px;
-    width: 100%;
+    width: 35%;
     margin-left: 100vh;
 }
 
