@@ -47,9 +47,7 @@ function Tokenomics() {
     </div>
    
     <div class="logo-container">
-    <div class="copyright-dnt">
-            The Dynamic Network Project. All Rights Reserved ©
-            </div>
+
             <div class="logo">
                 <a href="https://discord.gg/2d7PNevWJv">
                     <img src={discord} alt="Discord" />
@@ -70,6 +68,9 @@ function Tokenomics() {
                 <img src={github} alt="Github" />
               </a>
             </div> 
+            <div class="copyright-dnt">
+            <p>The Dynamic Network Project. All Rights Reserved ©</p>
+            </div>
         </div>
     <video  loop autoPlay muted id="myVideo">
         <source src={space}/>
