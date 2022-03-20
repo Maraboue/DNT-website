@@ -107,7 +107,7 @@
 
     .TokenInfo{
     
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(56, 59, 99, 0.8);
         line-height: 15px;
         display: block;
         position: relative;
@@ -116,6 +116,16 @@
         width: 100%;
         justify-content: center;
         margin-left: -2px;
+ 
+        box-shadow: 3px 3px 25px rgb(90, 149, 238);
+    }
+
+    .TokenInfo h1{
+        line-height: 35px;
+    }
+
+    .TokenInfo a{
+        background: rgba(56, 59, 99, 1);
     }
 
     .TokenInfo p{
@@ -123,6 +133,7 @@
         font-weight: 300;
         letter-spacing: 1.5px;
         line-height: 1em;
+        
     }
 
     .ChartInfo{
@@ -131,6 +142,8 @@
         margin-top: 1000px;
         display: none;
     }
+
+ 
 
 
     .logo-container{

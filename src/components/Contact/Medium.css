@@ -78,7 +78,8 @@
 
     .blogContainer{
 
-        width: 90%;
+        width: 90%; 
+        box-shadow: 3px 3px 25px rgb(90, 149, 238);
         padding: 15px;
         margin-right: 26px;
     }

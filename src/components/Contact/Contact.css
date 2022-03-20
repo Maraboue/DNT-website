@@ -124,6 +124,7 @@
         padding-top: 150px;
         display: block;
         width:auto;
+        
     }
 
     .CommunityForm{
@@ -133,26 +134,31 @@
         width: 75%;
         font-family: 'Courier New', Courier, monospace;  
         padding: 45px;
+        box-shadow: 3px 3px 25px rgb(90, 149, 238);
     }
 
     #twitter-text{
         width: 75%;
         margin-bottom: 100px;
         padding: 45px;
+        box-shadow: 3px 3px 25px rgb(90, 149, 238);
     }
 
     #text-input{
         width: 75%;
         
+        
     }
     #twitter-item{
       width: auto;  
       padding: 15px;
+      box-shadow: 3px 3px 25px rgb(90, 149, 238);
     }
 
     #medium-item{
         width: 85%;
         padding: 25px;
         margin-bottom: 150px;
+        box-shadow: 3px 3px 25px rgb(90, 149, 238);
     }
   }

@@ -489,7 +489,7 @@ div:not([class]){
   border-radius: 5px;
   text-shadow: none;
   margin: 15px;
-  box-shadow: 3px 3px 15px aqua;
+  box-shadow: 3px 3px 25px rgb(90, 149, 238);
 }
 
 .text p{
@@ -497,7 +497,7 @@ div:not([class]){
   padding: 50px;
   letter-spacing: 2px;
   background: rgba(56, 59, 99, 0.8);
-  box-shadow: 3px 3px 15px aqua;
+  box-shadow: 3px 3px 25px rgb(90, 149, 238);
   margin-bottom: -250px;
 }
 
@@ -531,17 +531,9 @@ div:not([class]){
       font-size: small;
       text-align: left;
   }
-
-  .card-container{
-      display: inline-grid;
-      background-color: black;
-  }
-
-  .card{
-      grid-template-columns: auto auto;
-      background: green;
-      margin: 5px;
-      
+  .logo-container{
+    margin-top: 750px;
+    
   }
   #dnt-logo-home{
     margin: 0;
@@ -549,9 +541,8 @@ div:not([class]){
 
   .copyright-dnt{
     position: absolute;
-    bottom: 0;
-    ;
-    
+    display: flex;
+    padding-top: 100px;
   }
 
 
