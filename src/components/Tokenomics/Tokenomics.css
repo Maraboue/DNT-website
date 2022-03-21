@@ -35,6 +35,10 @@
     margin-left: 100vh;
 }
 
+.Piechart p{
+    color: aliceblue;
+}
+
 .TokenInfo h2{
     margin-top: 10px;
 }

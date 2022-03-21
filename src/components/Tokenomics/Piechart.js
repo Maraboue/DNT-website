@@ -35,18 +35,18 @@ class PieChart extends Component {
             width: 600,
             height: 500,
             colorSet: "gradient",
-
+            theme: "dark1",
             title:{
                 text: "Token Distribution",
                 fontColor: "white",
-                fontFamily: "monospace",
+                fontFamily: "arial",
                 fontWeight:  "bold",
                 fontSize: 40    
             },
             legend: {
                 fontColor: "white",
-                labelFontColor:"white",
-        
+                labelFontColor:"white"
+               
             },
         
             data: [{
@@ -56,6 +56,7 @@ class PieChart extends Component {
                 showInLegend: "true",     
                 legendText: "{label}",
                 indexLabelFontSize: 20,
+
                 indexLabel: "{label} - {y}%",
                 dataPoints: [
                     { y: 10, label: "Team" },
