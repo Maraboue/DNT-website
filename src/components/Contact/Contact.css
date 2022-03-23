@@ -17,7 +17,7 @@
 }
 
 .CommunityItem:hover{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(56, 59, 99, .90);
 }
 
 #contact-logo{
@@ -36,7 +36,7 @@
 }
 
 .CommunityForm:hover{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(56, 59, 99, .90);
 }
 
 

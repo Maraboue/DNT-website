@@ -1,6 +1,6 @@
 import '../../index.css';
 import './Team.css';
-import React, { useState } from "react";
+
 // Assets
 
 import discord from '../../assets/images/discord-logo.png';
@@ -25,12 +25,15 @@ function Team() {
         <div>
 
 <div class="box">
+  
       <div class="card">
+      <p> Some INFO </p>
         <div class="imgBx">
             <img src={gustaf}alt="images"/>
         </div>
         <div class="details">
-            <h2>Gustaf Sjölinder<br/><span>Tech Lead</span></h2>
+          <h3>Gustaf Sjölinder</h3>
+            <h2>Viretas in numeris.<br/><span>Project Lead & Developer</span></h2>
         </div>
       </div>
     
@@ -39,16 +42,18 @@ function Team() {
             <img src={kajsa} alt="images"/>
          </div>
          <div class="details">
-            <h2>Kajsa Gyllhamn<br/><span>Marketing</span></h2>
+         <h3>Kajsa Gyllhamn</h3>
+            <h2>Viretas in numeris.<br/><span>Marketing</span></h2>
           </div>
        </div>
-
        <div class="card">
          <div class="imgBx">
             <img src={challe} alt="images"/>
+            
          </div>
          <div class="details">
-            <h2>Carl-Bernhard Hallberg<br/><span>Developer</span></h2>
+             <h3>Carl-Bernhard Hallberg</h3>
+            <h2>Viretas in numeris.<br/><span>Developer</span></h2>
           </div>
        </div>
        <div class="card">
@@ -56,7 +61,8 @@ function Team() {
             <img src={philip} alt="images"/>
          </div>
          <div class="details">
-            <h2>Philip Retelius<br/><span>Advisor</span></h2>
+         <h3>Philip Retelius</h3>
+            <h2>Viretas in numeris.<br/><span>Advisor</span></h2>
           </div>
        </div>
  

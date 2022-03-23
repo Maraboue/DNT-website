@@ -40,7 +40,7 @@
 }
 
 .Card:hover{
-    background: linear-gradient(aqua, aqua, aqua);
+    background:rgba(56, 59, 99, .90);
 
 
 }
