@@ -27,13 +27,12 @@ function Team() {
 <div class="box">
   
       <div class="card">
-      <p> Some INFO </p>
         <div class="imgBx">
             <img src={gustaf}alt="images"/>
         </div>
         <div class="details">
           <h3>Gustaf Sjölinder</h3>
-            <h2>Viretas in numeris.<br/><span>Project Lead & Developer</span></h2>
+            <h2>Vires in Numeris<br/><span>Project Lead & Developer</span></h2>
         </div>
       </div>
     
@@ -43,7 +42,7 @@ function Team() {
          </div>
          <div class="details">
          <h3>Kajsa Gyllhamn</h3>
-            <h2>Viretas in numeris.<br/><span>Marketing</span></h2>
+            <h2>Vires in Numeris<br/><span>Marketing</span></h2>
           </div>
        </div>
        <div class="card">
@@ -53,7 +52,7 @@ function Team() {
          </div>
          <div class="details">
              <h3>Carl-Bernhard Hallberg</h3>
-            <h2>Viretas in numeris.<br/><span>Developer</span></h2>
+            <h2>Vires in Numeris<br/><span>Developer</span></h2>
           </div>
        </div>
        <div class="card">
@@ -62,7 +61,7 @@ function Team() {
          </div>
          <div class="details">
          <h3>Philip Retelius</h3>
-            <h2>Viretas in numeris.<br/><span>Advisor</span></h2>
+            <h2>Vires in Numeris<br/><span>Advisor</span></h2>
           </div>
        </div>
  

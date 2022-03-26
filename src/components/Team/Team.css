@@ -117,3 +117,18 @@
   display: block;
   margin-top: 5px;
    } 
+
+
+   @media screen and (max-width: 600px){
+      .box{
+          width: 100%;
+          display:block;
+          justify-content: center;
+          
+      }
+      .card{
+        margin-top: 35px;
+        padding: 55px;
+      
+      }
+   }

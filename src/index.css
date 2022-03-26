@@ -133,7 +133,16 @@ body{
   transform: scale(95%);
 }
 
-
+@keyframes pulse{
+  0% {
+      transform: scale(0.95);
+      opacity: 0.75;
+  }
+  100%{
+      transform: scale(1.35);
+      opacity: 0;
+  }
+}
 
 #myVideo{
   position: absolute;
@@ -470,6 +479,7 @@ div:not([class]){
   border:none;
   margin-top:15px;
   display: block;
+  
 }
 
 
@@ -491,6 +501,9 @@ div:not([class]){
   margin: 15px;
   box-shadow: 3px 3px 25px rgb(90, 149, 238);
 }
+
+
+
 
 .text p{
   width: 100%;
