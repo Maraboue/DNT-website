@@ -153,7 +153,13 @@
     }
 
 
-    
+    .logo-container{
+        position: relative;
+        margin-top:1000px;
+        justify-content: center;
+    }
+
+ 
   
 }
 
