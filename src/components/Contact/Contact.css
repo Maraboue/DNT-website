@@ -1,3 +1,11 @@
+
+.ContactContainer{
+
+    display: flex;
+    justify-content: center;
+}
+
+
 .CommunityContainer{
     display: flex;    
     width: auto;
@@ -25,11 +33,13 @@
 }
 
 .CommunityForm{
+ 
     margin-top: 100px;
     padding: 35px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 4px 4px 4px black;
     margin-right: 120px;
-    height: 350px;
+    height: 40vh;
     width: 600px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 15px;
@@ -61,25 +71,34 @@
     height: 20px;
     width: 200px;
     border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(56, 59, 99, .90);
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 #text-input{
     width: 400px;
-    height: 100px;
+    height: 200px;
+    border-radius: 4px;
+    border-style: none;
     resize: none;
+    box-shadow: 4px 4px 4px rgba(56, 59, 99, .90);
+    padding: 15px;
 }
 
 #submit-btn{
-    margin-top: 10px;
-    width: 200px; 
-    height: 25px;
+    margin-top: 35px;
+    width: 250px; 
+    height: 35px;
     border-radius: 10px;
     font-family: monospace;
     font-weight: bold;
     color:white;
-    background-color: rgba(255, 255 ,255,0.3);
+    background-color: rgba(25, 255 ,255,0.5);
     border: none;
     cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(56, 59, 99, .90);
 }
 
 #submit-btn:hover{
@@ -94,7 +113,7 @@
         padding: 35px;
         background-color: rgba(255, 255, 255, 0.3);
         margin-right: 120px;
-        height: 250px;
+        height: 40vh;
         width: 600px;
         font-family: 'Courier New', Courier, monospace;  
     }
@@ -120,21 +139,19 @@
 
   @media screen and (max-width: 900px) {
     
-    .CommunityContainer{
-        padding-top: 150px;
-        display: block;
-        width:auto;
-        
-    }
+
 
     .CommunityForm{
-        margin-top: 100px;
-        background-color: rgba(255, 255, 255, 0.3);
-        height: 250px;
-        width: 75%;
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 40vh;
         font-family: 'Courier New', Courier, monospace;  
-        padding: 45px;
         box-shadow: 1px 1px 5px  rgb(90, 149, 238);
+        margin: 5px;
+        margin-top: 250px;
+    }
+
+    h2{
+        margin:25px;
     }
 
     #twitter-text{
@@ -144,9 +161,10 @@
         box-shadow: 1px 1px 5px  rgb(90, 149, 238);
     }
 
+
     #text-input{
         width: 75%;
-        
+        margin:5px;
         
     }
     #twitter-item{

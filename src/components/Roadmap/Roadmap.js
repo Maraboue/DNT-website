@@ -1,12 +1,10 @@
 import '../../index.css';
 import './Roadmap.css';
 import React, { useState } from "react";
+
+
 // Assets
 
-import discord from '../../assets/images/discord-logo.png';
-import twitter from '../../assets/images/twitter-logo.png';
-import medium from '../../assets/images/medium-logo.jpg';
-import github from '../../assets/images/GitHub-Mark.png';
 import space from '../../assets/videos/space.mp4';
 
 

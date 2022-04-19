@@ -64,72 +64,49 @@ function Contact ()  {
     return (
         <section className="community_section" id="community">
 
-       
-        <div class="CommunityContainer">
 
-            <div id="twitter-text" className="CommunityItem">
-                <h2>Dynamic Network on Twitter</h2>
-                <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
 
-                <p>Follow us on Twitter to stay updated on what's happening in the network!
-                   <br/><br/> Twitter is the best way to get news and updates about the Dynamic Network.
-                </p>
-            </div>
-            <div id="twitter-item">
-            <Twitter/>
-            </div>
-            <div className="CommunityForm">
-                <h2>Contact Us - We want to hear from you!</h2>
+    <div className="ContactContainer">   
+    <div className="CommunityForm">
+                <h2>Contact Us</h2>
                 <form class="contact-form" id="contact-form" onSubmit={onSubmit}>
                     <h5>Mail</h5>   
                     <input id="mail-input" type='text' name='from_name' placeholder='johndoe@mail.com'
                         value={toSend.from_name}
                         onChange={handleChange}/>
-                    <h5 id="text-h5">Text</h5>
+                    <h5 id="text-h5">Message</h5>
                     <textarea id="text-input" name="message" placeholder="What's on your mind?" 
                     value={toSend.message} onChange={handleChange}>
                     </textarea>
                     <button id="submit-btn" type="submit">Submit</button>
                 </form>
             </div>
-        
-        </div>
+       </div>
+   
 
-        <div className="CommunityContainer">
-
-            <div id="medium-item" className="CommunityItem">
-                <h2>Dynamic Network on Medium</h2>
-                <img src="https://img.icons8.com/color/48/000000/medium-monogram.png"/>
-                <p>Follow us on Medium to stay updated on what's happening in the network!<br/>
-                    <br/>   We frequently update our Medium with new blog posts about the development
-                    for the Dynamic Network.
-                </p>
-            </div>
-            <Medium/>
-            
-        </div>
+ 
         <div id="contact-logo" class="logo-container">
             <div class="copyright-dnt">
             The Dynamic Network Project. All Rights Reserved ©
             </div>
             <div class="logo">
                 <a href="https://discord.gg/2d7PNevWJv">
-                    <img src={discord} />
+                    <img src={discord} alt="Discord" />
                 </a>
             </div>
 
             <div class="logo">
                 <a href="https://twitter.com/DynamicN3twork">
-                    <img src={twitter} /></a>
+                    <img src={twitter} alt="Twitter" /></a>
             </div>
             <div class="logo">
                 <a href="https://dynamic-network.medium.com/">
-                    <img src={medium} />
+                    <img src={medium} alt="Medium" />
                 </a>
             </div>
             <div class="logo">
               <a href="https://github.com/Dynamic-Network">
-                <img src={github}  />
+                <img src={github} alt="Github" />
               </a>
             </div> 
         </div>

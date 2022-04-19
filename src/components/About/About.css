@@ -21,7 +21,7 @@
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 4px 4px 4px black;
 }
 
 .AboutItem2{
@@ -35,15 +35,13 @@
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 4px 4px 4px black;
     
 }
 
 .About-container p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    letter-spacing: 2px;
-    line-height: 15px;
     padding: 0;
     margin-left: 10px;
     margin-right: 10px;

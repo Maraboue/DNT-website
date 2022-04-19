@@ -3,11 +3,8 @@ import React, { useState, useEffect } from "react";
 import './Medium.css'
 
 import {
-    Card,
-    CardImg,
     CardBody,
     CardTitle,
-    CardSubtitle,
     Row,
     Col
 } from "reactstrap";
@@ -17,9 +14,11 @@ const Medium = () => {
     const [mediumData, setMediumData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
+    const RSSurl = 'https://medium.com/@dynamic-network'
+
     useEffect(() => {
         fetch(
-            `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dynamic-network`
+            `https://api.rss2json.com/v1/api.json?rss_url=${RSSurl}`
         )
             .then(res => res.json())
             .then(response => {
