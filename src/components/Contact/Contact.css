@@ -111,9 +111,9 @@
     .CommunityForm{
         margin-top: 100px;
         padding: 35px;
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.15);
         margin-right: 120px;
-        height: 40vh;
+        height: 50vh;
         width: 600px;
         font-family: 'Courier New', Courier, monospace;  
     }
@@ -143,12 +143,11 @@
 
     .CommunityForm{
         background-color: rgba(255, 255, 255, 0.15);
-        height: 50vh;
+        height: 400px;
         font-family: 'Courier New', Courier, monospace;  
         box-shadow: 1px 1px 5px  rgb(90, 149, 238);
-        margin: 5px;
+        margin: 35px;
         margin-top: 250px;
-        padding-bottom: -5px;
     }
 
     h2{
