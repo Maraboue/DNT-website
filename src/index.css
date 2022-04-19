@@ -15,6 +15,8 @@ body{
   -webkit-justify-content: flex-end;
   align-items: flex-end;
   -webkit-align-items: flex-end;
+  box-shadow: 4px 4px 4px black;
+  border-radius: 4px;
 }
 
 .dropbtn{
@@ -122,6 +124,7 @@ body{
   width: 75%;
   border: 1px 1px solid black;
   background: rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 2px black;
 }
 
 #nav-btn a{
