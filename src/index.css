@@ -17,6 +17,7 @@ body{
   -webkit-align-items: flex-end;
   box-shadow: 4px 4px 4px black;
   border-radius: 4px;
+  z-index: 9999999;
 }
 
 .dropbtn{
@@ -125,15 +126,18 @@ body{
   border: 1px 1px solid black;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 1px 1px 1px black;
+  z-index: 9999999;
 }
 
 #nav-btn a{
   letter-spacing: 3px;
   font-weight:bolder;
+  z-index: 9999999;
 }
 
 #nav-btn:hover{
   transform: scale(95%);
+  z-index: 9999999;
 }
 
 @keyframes pulse{
@@ -409,6 +413,7 @@ div:not([class]){
    transform: translateX(100%);
    transition: transform 350ms ease-in;
    height: 550px;
+   z-index: 9999999;
  }
 
  .primary-nav[data-visibility="true"]{
@@ -419,12 +424,15 @@ div:not([class]){
 
  .menu-btn:hover{
   transform: scale(95%);
+  z-index: 9999999;
  }
  .menu-btn1:hover{
   transform: scale(95%);
+  z-index: 9999999;
 }
  .menu-btn2:hover{
    transform: scale(95%);
+   z-index: 9999999;
  }
 
  .dropdown-content{
@@ -457,7 +465,7 @@ div:not([class]){
   background-repeat: no-repeat;
   border:none;
   display: block;
-  
+   z-index: 9999999;
   
 }
 
@@ -474,6 +482,7 @@ div:not([class]){
   border:none;
   margin-top:7.5px;
   display: block;
+  z-index: 9999999;
 }
 
 .menu-btn2{
@@ -489,7 +498,7 @@ div:not([class]){
   border:none;
   margin-top:15px;
   display: block;
-  
+  z-index: 9999999;
 }
 
 

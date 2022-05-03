@@ -107,17 +107,13 @@
 
     .TokenInfo{
         background-color: rgba(255, 255, 255, 0.15);
-     
-        line-height: 15px;
-        display: block;
-        position: relative;
-        margin-top: 150px;
-        overflow: hidden;
-        width: 100%;
-        justify-content: center;
-        margin-left: -2px;
- 
-        box-shadow: 1px 1px 5px rgb(90, 149, 238);
+        width: 90%;
+        position: absolute;
+        left:0px;
+        top:120px;
+        margin: 10px;
+        padding: 12px;
+        box-shadow: 4px 4px 4px rgb(90, 149, 238);
     }
 
     .TokenInfo h1{
