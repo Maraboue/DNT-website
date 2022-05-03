@@ -241,14 +241,20 @@ body{
   align-items: flex-end;
   -webkit-align-items: flex-end;
   
+
+  
+}
+
+.text p:hover{
+
+  background: linear-gradient(rgba(58, 65, 198, 0.25), rgba(70, 52, 167, 0.3), rgba(81, 40, 136, 0.3))
 }
 
 .text p{
   font-size: x-large;
   background: hsl(10 0% 50% / 0.2);
-  font-family: monospace;
+  text-shadow: 2px 4px 3px rgb(25, 0, 255);
   letter-spacing: 0.1em;
-  font-weight: bold;
   display:flex; 
   width: 40%;
   text-align: center;
@@ -491,7 +497,6 @@ div:not([class]){
 
 
   position: relative;
-
 }
 
 #header{
@@ -518,7 +523,6 @@ div:not([class]){
   letter-spacing: 2px;
   background: rgba(56, 59, 99, 0.4);
   box-shadow: 1px 1px 1px rgba(90, 149, 238, 0.5);
-  
 }
 
   div:not([class]){

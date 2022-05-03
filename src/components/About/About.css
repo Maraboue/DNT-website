@@ -56,13 +56,13 @@
 
 
 .AboutItem1:hover{
-    background: rgba(56, 59, 99, .70);
+    background: linear-gradient(rgba(58, 65, 198, 0.25), rgba(70, 52, 167, 0.3), rgba(81, 40, 136, 0.3))
  
 }
 
 
 .AboutItem2:hover{  
-    background: rgba(56, 59, 99, .70);
+    background: linear-gradient(rgba(58, 65, 198, 0.25), rgba(70, 52, 167, 0.3), rgba(81, 40, 136, 0.3))
 }
 
 

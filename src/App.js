@@ -15,8 +15,10 @@ function App() {
         </div>
         <div class="flex-container">                                            
         <div class="text"><p>We Are Excited To Start This Journey With You.<br/>
-        Let's Begin Building This New World of DeFi together.
+        Let's Start Building This New World of DeFi.
         </p></div>
+        
+        
     </div>
    
     <div class="logo-container">
