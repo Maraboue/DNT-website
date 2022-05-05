@@ -24,7 +24,9 @@
 }
 
 .TokenInfo:hover{
-    background: linear-gradient(rgba(58, 65, 198, 0.25), rgba(70, 52, 167, 0.3), rgba(81, 40, 136, 0.3))
+    background: linear-gradient(  rgba(68, 150, 243, 0.3), 
+    rgb(44, 162, 241,0.15),
+    rgba(123, 226, 26, 0.175))
 }
 
 .ChartInfo{

@@ -31,7 +31,9 @@
 }
 
 .road-stop:hover{
-    background-color: rgba(56, 59, 99, .90);
+    background: linear-gradient(  rgba(68, 150, 243, 0.6), 
+    rgb(44, 162, 241,0.4),
+    rgba(123, 226, 26, 0.3));
 }
 
 
