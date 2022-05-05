@@ -14,8 +14,8 @@ function App() {
           <h1 id="header" class="header">The Self Regulating Cryptocurrency with Less Volatility.</h1>
         </div>
         <div class="flex-container">                                            
-        <div class="text"><p>We Are Excited To Start This Journey With You.<br/>
-        Let's Start Building This New World of DeFi.
+        <div class="text"><p>Join Us in Building This New World of DeFi -<br/>
+            Dynamic Network Token.     
         </p></div>
         
         

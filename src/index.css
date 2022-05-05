@@ -188,15 +188,23 @@ body{
   text-align: center;
   padding: 35px;
   animation: 1s ease-out 3s 1 slideInFromRight;
-  text-shadow: 3px 1px black;
-  font-size:35px;
+  text-shadow: 4px 4px black;
+  font-size:45px;
 	letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  text-shadow: 
-						3px 3px 3px #e1e2e7,
-						8px 8px 3px #1b1c79;
+  font-family: 'Courier New', Courier, monospace;
+
+  background: linear-gradient(
+    to left, 
+    rgba(68, 150, 243, 0.4), 
+    rgb(44, 162, 241,0.2),
+    rgba(123, 226, 26, 0.2)
+  );
+
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px black;
 
 }
 
@@ -268,6 +276,12 @@ body{
   border-radius: 5px;
   margin-top: -35px;
   box-shadow: 4px 4px 4px black;
+  background: linear-gradient(
+    to left, 
+    rgba(68, 150, 243, 0.3), 
+    rgb(44, 162, 241,0.15),
+    rgba(123, 226, 26, 0.175)
+  );
 }
 
 .flex-container{
