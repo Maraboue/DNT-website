@@ -10,15 +10,24 @@ import github from './assets/images/GitHub-Mark.png';
 function App() {
   return (
     <div>
-        <div class="flex-container-header">
-          <h1 id="header" class="header">The Self Regulating Cryptocurrency with Less Volatility.</h1>
-        </div>
-        <div class="flex-container">                                            
-        <div class="text"><p>Join Us in Building This New World of DeFi -<br/>
-            Dynamic Network Token.     
-        </p></div>
-        
-        
+        <div class="flex-container-header">                                           
+        <div className="headerTitle">
+      
+      <h1>
+          The <a>Self Regulating</a> Crypto
+      </h1>
+      <h3>
+        Join us in the world of DeFi
+      </h3>
+
+      <button className="headerButton">
+                <a href="https://app.uniswap.org/#/swap?inputCurrency=0x86632544e69c8019babd01be75393f9c2d46ee70&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&chain=mainnet">
+                    Buy&nbsp;$DNT
+                </a>
+                </button>
+              
+    </div>
+
     </div>
    
     <div class="logo-container">

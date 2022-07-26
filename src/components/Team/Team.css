@@ -31,9 +31,8 @@
     width: 100%;
     height: 100%;
     border-radius: 4px;
-    background: linear-gradient(  rgba(68, 150, 243, 0.3), 
-    rgb(44, 162, 241,0.15),
-    rgba(123, 226, 26, 0.175));
+    background: linear-gradient(to right,#00baf7 11%,#00c9dc 45%,#00dabb 66%);
+
     transition: 0.5s;
     z-index:-1;
   }
@@ -115,9 +114,11 @@
   .card .details h2 span{
   font-weight: 500;
   font-size: 16px;
-  color: aqua;
+  color: white;
   display: block;
+  text-shadow: none;
   margin-top: 5px;
+  text-shadow: 2px 2px grey;
    } 
 
 
