@@ -68,12 +68,7 @@ window.onclick = function(event) {
                 <a href="/about" data-link>
                     About
                 </a>
-            </li>
-            <li>
-                <a href="/team" data-link>
-                    Team
-                </a>
-            </li>  
+            </li> 
             <li>
                 <a href="/roadmap" data-link>
                     Road Map

@@ -26,7 +26,6 @@ const Routing = () => {
         <Route exact path="/" element={<App/>} />
         <Route path="/tokenomics" element={<Tokenomics/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/team" element={<Team/>} />
         <Route path="/roadmap" element={<Roadmap/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
